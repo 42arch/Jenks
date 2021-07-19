@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "sourceMap": true,
+    "target": "ESNext",
+    "module": "ESNEXT",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "rootDir":"."
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": ["node_modules"]
+}
