@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "dev": "set NODE_ENV=developemnt&& rollup -c rollup.config.js -w",
-    "build": "rollup -c",
+    "build": "set NODE_ENV=production && rollup -c rollup.config.js",
     "test": "mocha --reporter spec"
   },
   "repository": {
@@ -16,7 +16,7 @@
   },
   "types": "lib/index.d.ts",
   "keywords": ["jenks", "natural breaks", "typescript"],
-  "author": "dan",
+  "author": "Dan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rendan42/Jenks.git/issues"
