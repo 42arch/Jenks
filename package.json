@@ -1,6 +1,6 @@
 {
   "name": "jenks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -12,16 +12,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rendan42/Jenks.git"
+    "url": "git+https://github.com/explosionsinthesky/Jenks.git"
   },
   "types": "lib/index.d.ts",
   "keywords": ["jenks", "natural breaks", "typescript"],
   "author": "Dan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rendan42/Jenks.git/issues"
+    "url": "https://github.com/explosionsinthesky/Jenks.git/issues"
   },
-  "homepage": "https://github.com/rendan42/Jenks.git#readme",
+  "homepage": "https://github.com/explosionsinthesky/Jenks.git#readme",
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.2.3",
     "chai": "^4.3.4",

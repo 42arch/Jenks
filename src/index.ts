@@ -80,7 +80,7 @@ export class Jenks {
     return kclass
   }
 
-  natural_breaks() {
+  naturalBreak() {
     if(this.n_classes > this.data.length) return null
     this.data = this.data.slice().sort((a, b) => a - b)
     let matrices: Matrices = this.getMatrices()
